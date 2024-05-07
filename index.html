@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://www.webflow.com -->
+<!-- Last Published: Fri Apr 12 2024 15:35:52 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="agenciatemplates.webflow.io" data-wf-page="657772c718bb72f22f6d3ce5" data-wf-site="657764706863918e44654350" data-wf-status="1" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Graphico - Advertising agency</title>
+    <meta content="Agencia X is the go-to Marketing Agency Webflow Template for creative agencies looking to elevate their online presence with style." name="description">
+    <meta content="Home V1 - Agencia X - Webflow Ecommerce Website Template" property="og:title">
+    <meta content="Agencia X is the go-to Marketing Agency Webflow Template for creative agencies looking to elevate their online presence with style." property="og:description">
+    <meta content="images/6605d4028cfae1a0c88a9195_open-graph-agencia-marketing-agency-webflow-template.jpg" property="og:image">
+    <meta content="Home V1 - Agencia X - Webflow Ecommerce Website Template" property="twitter:title">
+    <meta content="Agencia X is the go-to Marketing Agency Webflow Template for creative agencies looking to elevate their online presence with style." property="twitter:description">
+    <meta content="https://assets-global.website-files.com/657764706863918e44654350/6605d4028cfae1a0c88a9195_open-graph-agencia-marketing-agency-webflow-template.jpg" property="twitter:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="css/agenciatemplates.webflow.c3f32da91.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+    <script src="js/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: ["Inter:regular,600,800", "Source Code Pro:regular,600,800"]
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      ! function(o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+      }(window, document);
+    </script>
+    <link href="images/65779b2f33e7939ee773e502_favicon-light-mode-agencia-x-webflow-template.svg" rel="shortcut icon" type="image/x-icon">
+    <link href="images/65779b3521904e3a2581c62b_webclip-light-mode-agencia-x-webflow-template.svg" rel="apple-touch-icon">
+    <script type="text/javascript">
+      window.__WEBFLOW_CURRENCY_SETTINGS = {
+        "currencyCode": "USD",
+        "symbol": "$",
+        "decimal": ".",
+        "fractionDigits": 2,
+        "group": ",",
+        "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
+        "hideDecimalForWholeNumbers": false
+      };
+    </script>
+    <style>
+      .w-webflow-badge{
+        visibility: hidden !important;
+      }
+      .w-webflow-badge img{
+        opacity: 0;
+        visibility: hidden;
+        z-index: -100;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="header-transparent">
+        <div data-w-id="c5a10a2d-1ce6-df65-3882-e8a1991bf291" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-wrapper w-nav">
+          <div class="container-default w-container">
+            <div data-w-id="d4b2bf54-bf7c-1b29-d500-9ded72507fcc" class="header-container-wrapper">
+              <div class="nav-menu-left-side grow-tablet">
+                <div class="logo-wrapper">
+                  <a href="/" aria-current="page" class="logo-link w-inline-block w--current">
+                    <img src="images/LOGO.png" alt="Logo Light Mode - Agencia X Webflow Template" class="header-logo">
+                  </a>
+                </div>
+                <div class="flex-horizontal growth-tablet gap-22px">
+                  <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+                    <ul role="list" class="list-nav-menu">
+                      <li class="link-nav-item">
+                        <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/" aria-current="page" class="link w-inline-block w--current">
+                          <div class="inline-block">Home</div>
+                        </a>
+                      </li>
+                      <li class="link-nav-item">
+                        <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/about" class="link w-inline-block">
+                          <div class="inline-block">About</div>
+                        </a>
+                      </li>
+                      
+                      <li class="link-nav-item show-on-mobile">
+                        <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="/contact-pages/contact-v1" class="button-primary w-inline-block">
+                          <div class="text-block">Let's talk</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="mg-left-auto-tablet">
+                    <div data-node-type="commerce-cart-wrapper" data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="query Dynamo2 {
+  database {
+    id
+    commerceOrder {
+      comment
+      extraItems {
+        name
+        pluginId
+        pluginName
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+      }
+      id
+      startedOn
+      statusFlags {
+        hasDownloads
+        hasSubscription
+        isFreeOrder
+        requiresShipping
+      }
+      subtotal {
+        value
+        unit
+        decimalValue
+        string
+      }
+      total {
+        value
+        unit
+        decimalValue
+        string
+      }
+      updatedOn
+      userItems {
+        count
+        id
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+        product {
+          id
+          cmsLocaleId
+          f__draft_0ht
+          f__archived_0ht
+          f_ec_product_type_2dr10dr {
+            id
+            name
+          }
+          f_name_
+          f_sku_properties_3dr {
+            id
+            name
+            enum {
+              id
+              name
+              slug
+            }
+          }
+        }
+        rowTotal {
+          value
+          unit
+          decimalValue
+          string
+        }
+        sku {
+          cmsLocaleId
+          f__draft_0ht
+          f__archived_0ht
+          f_main_image_4dr {
+            url
+            file {
+              size
+              origFileName
+              createdOn
+              updatedOn
+              mimeType
+              width
+              height
+              variants {
+                origFileName
+                quality
+                height
+                width
+                s3Url
+                error
+                size
+              }
+            }
+            alt
+          }
+          f_sku_values_3dr {
+            property {
+              id
+            }
+            value {
+              id
+            }
+          }
+          id
+        }
+        subscriptionFrequency
+        subscriptionInterval
+        subscriptionTrial
+      }
+      userItemsCount
+    }
+  }
+  site {
+    id
+    commerce {
+      businessAddress {
+        country
+      }
+      defaultCountry
+      defaultCurrency
+      quickCheckoutEnabled
+    }
+  }
+}" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart-button-wrapper">
+                      
+                      <div data-node-type="commerce-cart-container-wrapper" style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal cart-wrapper">
+                        <div role="dialog" data-node-type="commerce-cart-container" class="w-commerce-commercecartcontainer cart-container">
+                          <div class="card">
+                            <div class="w-commerce-commercecartheader cart-header">
+                              <h4 class="w-commerce-commercecartheading display-4">Your Cart</h4>
+                              <a href="#" data-node-type="commerce-cart-close-link" role="button" aria-label="Close cart" class="w-commerce-commercecartcloselink close-button w-inline-block">
+                                <div class="icon-font-rounded"></div>
+                              </a>
+                            </div>
+                            <div class="w-commerce-commercecartformwrapper cart-form-wrapper">
+                              <form data-node-type="commerce-cart-form" style="display:none" class="w-commerce-commercecartform">
+                                <script type="text/x-wf-template" id="wf-template-d4b2bf54-bf7c-1b29-d500-9ded7250805d">%3Cdiv%20class%3D%22w-commerce-commercecartitem%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fassets-global.website-files.com%2Fplugins%2FBasic%2Fassets%2Fplaceholder.60f9b1840c.svg%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%252C%257B%2522alt%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_name_%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22w-commerce-commercecartitemimage%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22w-commerce-commercecartiteminfo%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_name_%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartproductname%20cart-item-title%20display-2%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.price%2522%257D%257D%255D%22%20class%3D%22cart-item-price%20display-2%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3Cscript%20type%3D%22text%2Fx-wf-template%22%20id%3D%22wf-template-d4b2bf54-bf7c-1b29-d500-9ded72508063%22%3E%253Cli%2520class%253D%2522pd-left-0%2520capitalize-every-word%2522%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522PlainText%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D.name%252522%25257D%25257D%25255D%2522%2520class%253D%2522display-2%2520w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253Cspan%253E%253A%2520%253C%252Fspan%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522CommercePropValues%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D%252522%25257D%25257D%25255D%2522%2520class%253D%2522cart-item-result%2520display-2%2520w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253C%252Fli%253E%3C%2Fscript%3E%3Cul%20data-wf-bindings%3D%22%255B%257B%2522optionSets%2522%253A%257B%2522type%2522%253A%2522CommercePropTable%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%5B%5D%2522%257D%257D%252C%257B%2522optionValues%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_sku_values_3dr%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartoptionlist%22%20data-wf-collection%3D%22database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%22%20data-wf-template-id%3D%22wf-template-d4b2bf54-bf7c-1b29-d500-9ded72508063%22%3E%3Cli%20class%3D%22pd-left-0%20capitalize-every-word%22%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22display-2%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22cart-item-result%20display-2%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E%3C%2Ful%3E%3Ca%20href%3D%22%23%22%20role%3D%22button%22%20aria-label%3D%22Remove%20item%20from%20cart%22%20data-wf-bindings%3D%22%255B%257B%2522data-commerce-sku-id%2522%253A%257B%2522type%2522%253A%2522ItemRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.id%2522%257D%257D%255D%22%20class%3D%22w-inline-block%22%20data-wf-cart-action%3D%22remove-item%22%20data-commerce-sku-id%3D%22%22%3E%3Cdiv%3ERemove%3C%2Fdiv%3E%3C%2Fa%3E%3C%2Fdiv%3E%3Cinput%20aria-label%3D%22Update%20quantity%22%20data-wf-bindings%3D%22%255B%257B%2522value%2522%253A%257B%2522type%2522%253A%2522Number%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522numberPrecision%2522%252C%2522params%2522%253A%255B%25220%2522%252C%2522numberPrecision%2522%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.count%2522%257D%257D%252C%257B%2522data-commerce-sku-id%2522%253A%257B%2522type%2522%253A%2522ItemRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.id%2522%257D%257D%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aec-product-type%2522%253A%257B%2522ne%2522%253A%2522e348fd487d0102946c9179d2a94bb613%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22w-commerce-commercecartquantity%20input%20cart-quantity-input%22%20required%3D%22%22%20pattern%3D%22%5E%5B0-9%5D%2B%24%22%20inputMode%3D%22numeric%22%20type%3D%22number%22%20name%3D%22quantity%22%20autoComplete%3D%22off%22%20data-wf-cart-action%3D%22update-item-quantity%22%20data-commerce-sku-id%3D%22%22%20value%3D%221%22%2F%3E%3C%2Fdiv%3E</script>
+                                <div class="w-commerce-commercecartlist" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-d4b2bf54-bf7c-1b29-d500-9ded7250805d">
+                                  <div class="w-commerce-commercecartitem">
+                                    <img src="images/placeholder.60f9b1840c.svg" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%2C%7B%22alt%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_name_%22%7D%7D%5D" alt="" class="w-commerce-commercecartitemimage w-dyn-bind-empty">
+                                    <div class="w-commerce-commercecartiteminfo">
+                                      <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_name_%22%7D%7D%5D" class="w-commerce-commercecartproductname cart-item-title display-2 w-dyn-bind-empty"></div>
+                                      <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.price%22%7D%7D%5D" class="cart-item-price display-2">$&nbsp;0.00&nbsp;USD</div>
+                                      <script type="text/x-wf-template" id="wf-template-d4b2bf54-bf7c-1b29-d500-9ded72508063">%3Cli%20class%3D%22pd-left-0%20capitalize-every-word%22%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22display-2%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22cart-item-result%20display-2%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E</script>
+                                      <ul data-wf-bindings="%5B%7B%22optionSets%22%3A%7B%22type%22%3A%22CommercePropTable%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr[]%22%7D%7D%2C%7B%22optionValues%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_sku_values_3dr%22%7D%7D%5D" class="w-commerce-commercecartoptionlist" data-wf-collection="database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr" data-wf-template-id="wf-template-d4b2bf54-bf7c-1b29-d500-9ded72508063">
+                                        <li class="pd-left-0 capitalize-every-word">
+                                          <span data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D.name%22%7D%7D%5D" class="display-2 w-dyn-bind-empty"></span>
+                                          <span>: </span>
+                                          <span data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D%22%7D%7D%5D" class="cart-item-result display-2 w-dyn-bind-empty"></span>
+                                        </li>
+                                      </ul>
+                                      <a href="#" role="button" aria-label="Remove item from cart" data-wf-bindings="%5B%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D" class="w-inline-block" data-wf-cart-action="remove-item" data-commerce-sku-id="">
+                                        <div>Remove</div>
+                                      </a>
+                                    </div>
+                                    <input aria-label="Update quantity" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.count%22%7D%7D%2C%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aec-product-type%22%3A%7B%22ne%22%3A%22e348fd487d0102946c9179d2a94bb613%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="w-commerce-commercecartquantity input cart-quantity-input" required="" pattern="^[0-9]+$" inputmode="numeric" type="number" name="quantity" autocomplete="off" data-wf-cart-action="update-item-quantity" data-commerce-sku-id="" value="1">
+                                  </div>
+                                </div>
+                                <div class="w-commerce-commercecartfooter cart-footer">
+                                  <div aria-atomic="true" aria-live="polite" class="w-commerce-commercecartlineitem cart-line-item">
+                                    <div class="display-2">Subtotal</div>
+                                    <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.subtotal%22%7D%7D%5D" class="w-commerce-commercecartordervalue display-2 text-neutral-800"></div>
+                                  </div>
+                                  <div>
+                                    <div data-node-type="commerce-cart-quick-checkout-actions" style="display:none">
+                                      <a role="button" tabindex="0" aria-label="Apple Pay" aria-haspopup="dialog" data-node-type="commerce-cart-apple-pay-button" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton apple-pay-btn">
+                                        <div></div>
+                                      </a>
+                                      <a role="button" tabindex="0" aria-haspopup="dialog" data-node-type="commerce-cart-quick-checkout-button" style="display:none" class="w-commerce-commercecartquickcheckoutbutton">
+                                        <svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+                                          <defs>
+                                            <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
+                                            <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
+                                          </defs>
+                                          <g fill="none" fill-rule="evenodd">
+                                            <path fill="#4285F4" d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469"></path>
+                                            <path fill="#34A853" d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16"></path>
+                                            <g transform="translate(0 4)">
+                                              <mask id="google-mark-b" fill="#fff">
+                                                <use xlink:href="#google-mark-a"></use>
+                                              </mask>
+                                              <path fill="#FBBC04" d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337" mask="url(#google-mark-b)"></path>
+                                            </g>
+                                            <mask id="google-mark-d" fill="#fff">
+                                              <use xlink:href="#google-mark-c"></use>
+                                            </mask>
+                                            <path fill="#EA4335" d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291" mask="url(#google-mark-d)"></path>
+                                          </g>
+                                        </svg>
+                                        <svg class="w-commerce-commercequickcheckoutmicrosofticon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                          <g fill="none" fill-rule="evenodd">
+                                            <polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon>
+                                            <polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon>
+                                            <polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon>
+                                            <polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon>
+                                          </g>
+                                        </svg>
+                                        <div>Pay with browser.</div>
+                                      </a>
+                                    </div>
+                                    <a href="/checkout" value="Continue to Checkout" data-node-type="cart-checkout-button" class="w-commerce-commercecartcheckoutbutton button-primary small width-100" data-loading-text="Hang Tight...">Continue to Checkout</a>
+                                  </div>
+                                </div>
+                              </form>
+                              <div class="w-commerce-commercecartemptystate flex-vertical pd-sides-24px">
+                                <div class="mg-bottom-16px">
+                                  <div aria-live="polite" aria-label="This cart is empty" class="display-3 text-medium text-neutral-800">No items found.</div>
+                                </div>
+                                <a href="/packages" class="button-primary w-button">Go to packages</a>
+                              </div>
+                              <div aria-live="assertive" style="display:none" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate error-state">
+                                <div class="w-cart-error-msg" data-w-cart-quantity-error="Product is not available in this quantity." data-w-cart-general-error="Something went wrong when adding this item to the cart." data-w-cart-checkout-error="Checkout is disabled on this site." data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue." data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">Product is not available in this quantity.</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              
+              
+              <div class="nav-menu-right-side">
+                <div class="hidden-on-tablet">
+                  <div class="social-media-flex">
+              <a href="https://www.facebook.com/fbgraphico" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+              <a href="https://x.com/realGraphico" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+              <a href="https://instagram.com/graphico.net.in" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+              <a href="https://www.behance.net/salahmangala" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+            </div>
+                </div>
+                
+                
+                <div class="hide-on-mobile-landscape">
+                  <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="https://wa.me/916238662506" class="button-primary w-inline-block">
+                    <div class="text-block">Let's talk</div>
+                  </a>
+                </div>
+                <div class="hamburger-menu w-nav-button">
+                  <div class="hamburger-menu-flex">
+                    <div class="hamburger-menu-line top"></div>
+                    <div class="hamburger-menu-line middle"></div>
+                    <div class="hamburger-menu-line bottom"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="section hero home-v1">
+        <div class="w-layout-blockcontainer container-default w-container">
+          <div class="w-layout-grid grid-2-columns home-v1-hero-grid">
+            <div id="w-node-_26b28563-6021-df9d-8a7f-7dc101becdcb-2f6d3ce5">
+              <div id="w-node-_3af833c5-85f0-a9e8-599a-96e681558eed-2f6d3ce5" data-w-id="3af833c5-85f0-a9e8-599a-96e681558eed" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="home-v1-description">
+                <div id="w-node-b4be371d-1e92-2c6c-108a-94d33172dc36-2f6d3ce5" class="mg-bottom-8px">
+                  <div id="w-node-_76890193-3ba4-94e8-8663-58b7b118448f-2f6d3ce5" class="display-4 text-medium text-color-primary-2">Welcome to Graphico</div>
+                </div>
+                <h1 class="display-11 mg-bottom-16px">Boost Your Brand's Digital Presence</h1>
+                <p class="paragraph-large mg-bottom-32px mg-bottom-20px-tablet">We're a graphic design company that boosts your brand's digital presence with creative designs and effective strategies.</p>
+                <div class="buttons-row left">
+                  <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="https://wa.me/916238662506" class="button-primary w-inline-block">
+                    <div class="text-block">Let's talk</div>
+                  </a>
+                  <a id="w-node-_9ac5c108-4a68-32dd-6e03-9f793bb88842-3bb88842" href="#service" class="secondary-button w-inline-block">
+                    <div class="text-block">Our services</div>
+                  </a>
+                </div>
+              </div>
+              <div class="inner-container _494px _100-tablet">
+                <div data-w-id="360a318d-c063-0ec0-f962-ea4f853168ea" style="opacity:0" class="paragraph-large mg-bottom-24px"></div>
+                <div data-w-id="822da0ad-6f8f-2e02-39dd-dfbc9d4da8b3" style="opacity:0" class="w-layout-grid grid-3-columns logo-strip-v16">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="home-v1-hero-image-wrapper">
+              <img src="images/65b2e0a948804d403a9ca56d_home-hero-image-top-left-agencia-webflow-ecommerce-template.svg" loading="eager" alt="" class="home-v1-bg-top-left-shape show-on-tablet">
+              <div class="half-bg-right home-v1-bg-right-wrapper">
+                <img src="images/65b2e0a948804d403a9ca56d_home-hero-image-top-left-agencia-webflow-ecommerce-template.svg" loading="eager" alt="" class="home-v1-bg-top-left-shape">
+              </div>
+              <div data-w-id="842b1bce-041d-3103-0a62-fd663dd479a3" style="opacity:0" class="home-v1-hero-image">
+                <img src="images/65b2de821d86f3b6db8767da_home-v1-hero-image-agencia-webflow-ecommerce-template.jpg" alt="" sizes="(max-width: 479px) 73vw, (max-width: 767px) 82vw, (max-width: 991px) 86vw, (max-width: 1439px) 42vw, 543.1171875px" srcset="images/65b2de821d86f3b6db8767da_home-v1-hero-image-agencia-webflow-ecommerce-template-p-500.jpg 500w, images/65b2de821d86f3b6db8767da_home-v1-hero-image-agencia-webflow-ecommerce-template-p-800.jpg 800w, images/65b2de821d86f3b6db8767da_home-v1-hero-image-agencia-webflow-ecommerce-template-p-1080.jpg 1080w, images/65b2de821d86f3b6db8767da_home-v1-hero-image-agencia-webflow-ecommerce-template.jpg 1264w" class="fit-cover _w-h-100 z-index-1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section top-bottom-100px" id="service">
+        <div class="w-layout-blockcontainer container-default w-container">
+          <div class="mg-bottom-40px">
+            <div data-w-id="c0ba9e14-232d-a474-95b4-0072f906b2ac" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="flex-horizontal space-between gap-16px---flex-wrap">
+              <div class="inner-container _732px _100-tablet">
+                <div class="mg-bottom-8px">
+                  <div class="display-4 text-medium text-color-primary-2">Our services</div>
+                </div>
+                <h2 class="display-9">High-impact services to take your business the next level</h2>
+              </div>
+              
+            </div>
+          </div>
+          <div class="w-layout-grid grid-2-columns services-2-col-grid">
+            <div id="w-node-_7f2c87b4-5c06-f594-bf31-0d4c448555b9-2f6d3ce5" class="w-layout-grid grid-1-column gap-row-32px">
+              <a data-w-id="e22a03bb-64b2-ad5c-c15d-159bf4a69b13" style="opacity:0" href="/services" class="card service-card-01 gap-row-110px-desktop w-inline-block">
+                <div class="flex-horizontal space-between gap-16px---flex-wrap">
+                  <div class="inner-container _204px">
+                    <h3 class="card-heading display-7">Social media Creatives</h3>
+                  </div>
+                  <div class="button-primary-circle">
+                    <div class="button-circle-line vertical"></div>
+                    <div class="button-circle-line"></div>
+                  </div>
+                </div>
+                <div class="inner-container _312px _100-tablet">
+                  <div class="mg-bottom-24px">
+                    <img src="images/65778694d84d3a6e3dd99cfd_megaphone-icon-agencia-x-webflow-template.svg" alt="Megaphone Icon - Agencia X Webflow Template">
+                  </div>
+                  <p class="paragraph-large text-neutral-600">Engaging social media posters for brands. Get vibrant, custom visuals to boost your online presence.</p>
+                </div>
+              </a>
+              <a data-w-id="45e258fa-2d15-7e11-e0d1-a952a3812e42" style="opacity:0" href="/services" class="card service-card-01 pd-bottom-40px w-inline-block">
+                <div class="flex-horizontal space-between gap-16px---flex-wrap">
+                  <div class="inner-container _204px">
+                    <h3 class="card-heading display-7">Branding</h3>
+                  </div>
+                  <div class="button-primary-circle">
+                    <div class="button-circle-line vertical"></div>
+                    <div class="button-circle-line"></div>
+                  </div>
+                </div>
+                <div class="inner-container _312px _100-tablet">
+                  <div class="mg-bottom-24px">
+                    <img src="images/65778698f52e36c9535730eb_chart-icon-agencia-x-webflow-template.svg" alt="Chart Icon - Agencia X Webflow Template">
+                  </div>
+                  <p class="paragraph-large text-neutral-600">We craft your brand identity with custom logos, color palettes, and business cards for a cohesive look that stands out.</p>
+                </div>
+              </a>
+            </div>
+            <div id="w-node-_0a3a0d3e-7541-2b2c-3083-02146146fabc-2f6d3ce5" class="w-layout-grid grid-1-column gap-row-32px">
+              <a data-w-id="e22a03bb-64b2-ad5c-c15d-159bf4a69b21" style="opacity:0" href="/services" class="card service-card-01 pd-bottom-40px w-inline-block">
+                <div class="w-layout-vflex flex-vertical space-between---align-stretch gap-24px">
+                  <div class="flex-horizontal space-between gap-16px---flex-wrap">
+                    <div class="inner-container _204px">
+                      <h3 class="card-heading display-7">Website development</h3>
+                    </div>
+                    <div class="button-primary-circle">
+                      <div class="button-circle-line vertical"></div>
+                      <div class="button-circle-line"></div>
+                    </div>
+                  </div>
+                  <div class="inner-container _314px _100-tablet">
+                    <div class="mg-bottom-24px">
+                      <img src="images/6577869333a1be19c5272178_magnifying-glass-icon-agencia-x-webflow-template.svg" alt="Magnifying Glass Icon - Agencia X Webflow Template">
+                    </div>
+                    <p class="paragraph-large text-neutral-600">We build custom websites for your brand, creating an online presence that's engaging, responsive, and uniquely yours.</p>
+                  </div>
+                </div>
+              </a>
+              <div id="w-node-_6a521e3a-cf7e-46ce-fd61-17660a24fb32-2f6d3ce5" class="w-layout-grid grid-2-columns gap-column-28px---row-32px">
+                <a data-w-id="e22a03bb-64b2-ad5c-c15d-159bf4a69b30" style="opacity:0" href="/services" class="card service-card-02 w-inline-block">
+                  <div class="flex-horizontal space-between gap-16px---flex-wrap">
+                    <div class="inner-container _204px">
+                      <h3 class="card-heading display-7">App development</h3>
+                    </div>
+                    <div class="button-primary-circle">
+                      <div class="button-circle-line vertical"></div>
+                      <div class="button-circle-line"></div>
+                    </div>
+                  </div>
+                  <div class="inner-container _304px _100-tablet">
+                    <div class="mg-bottom-24px">
+                      <img src="images/6577869a5a13341a2dbce235_cards-icon-agencia-x-webflow-template.png" style="max-width: 60%;"  alt="Cards Icon - Agencia X Webflow Template">
+                    </div>
+                    <p class="paragraph-large text-neutral-600">We create Android and iOS apps for your brand, offering custom, user-friendly mobile solutions to engage your audience.</p>
+                  </div>
+                </a>
+                <a data-w-id="e22a03bb-64b2-ad5c-c15d-159bf4a69b3e" style="opacity:0" href="/services" class="card service-card-02 w-inline-block">
+                  <div class="flex-horizontal space-between gap-16px---flex-wrap">
+                    <div class="inner-container _204px">
+                      <h3 class="card-heading display-7">SEO Optimization</h3>
+                    </div>
+                    <div class="button-primary-circle">
+                      <div class="button-circle-line vertical"></div>
+                      <div class="button-circle-line"></div>
+                    </div>
+                  </div>
+                  <div class="inner-container _304px _100-tablet">
+                    <div class="mg-bottom-24px">
+                      <img src="images/6577869333a1be19c5272178_magnifying-glass-icon-agencia-x-webflow-template.svg" alt="Funnel Icon - Agencia X Webflow Template">
+                    </div>
+                    <p class="paragraph-large text-neutral-600">Our SEO service optimizes your website for search engines, driving more traffic and improving visibility.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section top-bottom-100px overflow-hidden">
+        <div class="w-layout-blockcontainer container-default w-container">
+          <div class="position-relative">
+            <div class="w-layout-grid grid-2-columns why-us-grid-2-col-02">
+              <div id="w-node-f7ba7d3c-b6e7-10a3-58a2-bd29e91d347f-2f6d3ce5" data-w-id="f7ba7d3c-b6e7-10a3-58a2-bd29e91d347f" style="opacity:0" class="why-us-image-left-container">
+                <div class="inner-container _568px width-100">
+                  <img src="images/65b2f0d3d626f9aac0270cfd_why-us-image-left-agencia-webflow-ecommerce-template.png" alt="Why Us? - Agencia X Webflow Template" sizes="(max-width: 479px) 90vw, (max-width: 767px) 69vw, (max-width: 991px) 568px, (max-width: 1439px) 42vw, 568px" srcset="images/65b2f0d3d626f9aac0270cfd_why-us-image-left-agencia-webflow-ecommerce-template-p-500.png 500w, images/65b2f0d3d626f9aac0270cfd_why-us-image-left-agencia-webflow-ecommerce-template-p-800.png 800w, images/65b2f0d3d626f9aac0270cfd_why-us-image-left-agencia-webflow-ecommerce-template.png 1136w">
+                </div>
+                <img src="images/65b2f2b2a658cd18a6b05eb8_why-us-image-left-shape-agencia-webflow-ecommerce-template.svg" loading="eager" alt="" class="why-us-image-top-right-shape">
+              </div>
+              <div id="w-node-_93b94168-2d10-60d6-826d-e71c103b55ff-2f6d3ce5" data-w-id="93b94168-2d10-60d6-826d-e71c103b55ff" style="opacity:0" class="why-us-description-01">
+                <div data-w-id="c99c5870-a1e5-cce8-8968-b0ddd13534e3" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="why-us-title-01">
+                  <div class="mg-bottom-8px">
+                    <div class="display-4 text-medium text-color-primary-2">Why us?</div>
+                  </div>
+                  <h2 class="display-9">Why work with our amazing marketing team?</h2>
+                </div>
+                <div>
+                  <p class="paragraph-large mg-bottom-24px">We offer innovative solutions using the latest design and technology, customized to meet your needs. Our proven track record shows our commitment to quality, and we maintain clear communication throughout the project. Even after delivery, we're here to support you. With us, you're gaining a partner dedicated to your success.</p>
+                  <div class="mg-bottom-40px mg-bottom-24px-tablet">
+                    <div class="inner-container _480px">
+                      <div class="w-layout-grid grid-3-columns stat-grid-3-col">
+                        <div id="w-node-c317082c-5b1b-adb4-b67e-bdf61a898202-2f6d3ce5">
+                          <div class="display-9 text-medium text-neutral-800">150 <span class="display-7 text-color-primary-1">+</span>
+                          </div>
+                          <div class="display-4 text-neutral-600">Clients <span class="display-block">worldwide</span>
+                          </div>
+                        </div>
+                        <div id="w-node-bc092017-cbe8-a47c-5c2c-5e5a062906f3-2f6d3ce5">
+                          <div class="display-9 text-medium text-neutral-800">230 <span class="display-7 text-color-primary-2">+</span>
+                          </div>
+                          <div class="display-4 text-neutral-600">Projects <span class="display-block">completed</span>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex-horizontal justify-start">
+                    <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="https://wa.me/916238662506" class="button-primary w-inline-block">
+                      <div class="text-block">Let's talk</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section top-100px---bottom-200px">
+        <div class="w-layout-blockcontainer container-default w-container">
+          <div data-w-id="64e45a77-51f6-dbc1-f8f5-b9653fd5c177" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="text-center mg-bottom-40px">
+            <div class="inner-container _600px center">
+              <div class="mg-bottom-8px">
+                <div class="display-4 text-medium text-color-primary-2">Our process</div>
+              </div>
+              <h2 class="display-9 mg-bottom-16px">A simple, yet powerful and effective process</h2>
+              <div class="inner-container _524px center">
+                <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mg-bottom-48px">
+            <div class="w-layout-grid grid-3-columns gap-28px _1-col-tablet">
+              <div id="w-node-_64e45a77-51f6-dbc1-f8f5-b9653fd5c181-2f6d3ce5" data-w-id="64e45a77-51f6-dbc1-f8f5-b9653fd5c181" style="opacity:0" class="card our-process-card">
+                <div class="mg-bottom-40px">
+                  <div class="w-layout-vflex flex-vertical center text-center">
+                    <img src="images/65778694d2ea5ac71e567743_to-do-list-icon-agencia-x-webflow-template.svg" alt="To Do List Icon - Agencia X Webflow Template">
+                  </div>
+                </div>
+                <div>
+                  <h3 class="display-7 mg-bottom-16px">1. Marketing plan</h3>
+                  <p class="paragraph-large">We create a tailored strategy to reach your target audience and achieve your business goals.</p>
+                </div>
+              </div>
+              <div id="w-node-_64e45a77-51f6-dbc1-f8f5-b9653fd5c18a-2f6d3ce5" data-w-id="64e45a77-51f6-dbc1-f8f5-b9653fd5c18a" style="opacity:0" class="card our-process-card">
+                <div class="mg-bottom-24px">
+                  <div class="w-layout-vflex flex-vertical center text-center">
+                    <img src="images/65778692c55d43e83b30c895_execution-icon-agencia-x-webflow-template.svg" alt="Execution Icon - Agencia X Webflow Template" class="image-size _190px">
+                  </div>
+                </div>
+                <div>
+                  <h3 class="display-7 mg-bottom-16px">2. Execution</h3>
+                  <p class="paragraph-large">Our team puts the plan into action with precision and creativity, ensuring every detail is on point.</p>
+                </div>
+              </div>
+              <div id="w-node-_64e45a77-51f6-dbc1-f8f5-b9653fd5c193-2f6d3ce5" data-w-id="64e45a77-51f6-dbc1-f8f5-b9653fd5c193" style="opacity:0" class="card our-process-card">
+                <div class="mg-bottom-40px">
+                  <div class="w-layout-vflex flex-vertical center text-center">
+                    <img src="images/65778698f52e36c9535730eb_chart-icon-agencia-x-webflow-template.svg" alt="Chart Icon - Agencia X Webflow Template" class="image-size _180px">
+                  </div>
+                </div>
+                <div>
+                  <h3 class="display-7 mg-bottom-16px">3. Growth &amp; scale</h3>
+                  <p class="paragraph-large">We help you expand by optimizing campaigns and exploring new opportunities for sustainable growth.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="64e45a77-51f6-dbc1-f8f5-b9653fd5c19c" style="opacity:0">
+            <div class="buttons-row">
+              <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="https://wa.me/916238662506" class="button-primary w-inline-block">
+                <div class="text-block">Let's talk</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+   
+      <section class="section top-bottom-100px overflow-hidden">
+        <div class="w-layout-blockcontainer container-default w-container">
+          <div class="mg-bottom-40px">
+            <div data-w-id="a30fd382-efd6-c200-0dbc-d433593da193" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="flex-horizontal space-between gap-16px---flex-wrap">
+              <div class="inner-container _492px _100-tablet">
+                <div class="mg-bottom-8px">
+                  <div class="display-4 text-medium text-color-primary-2">Testimonials</div>
+                </div>
+                <h2 class="display-9">Don’t take our word for it, take theirs</h2>
+              </div>
+              <div class="align-self-bottom width-100-tablet">
+                <div class="inner-container _524px _100-tablet">
+                  <p class="paragraph-large">Authentic expressions of satisfaction or approval. They validate experiences, build trust, and influence decisions. Effective testimonials resonate with audiences, enhancing credibility and fostering connections between individuals and businesses.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="fcceb29b-668f-652d-bcd2-9f61938492a8" style="opacity:0" class="marquee-wrapper testimonial-marquee-wrapper-01">
+          <div data-w-id="fcceb29b-668f-652d-bcd2-9f61938492a9" class="marquee top">
+            <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Highly recommended”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-fcceb29b-668f-652d-bcd2-9f61938492b3-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-fcceb29b-668f-652d-bcd2-9f61938492b4-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Emily R</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Fantastic Branding and Logo Design!”</h3>
+                  <p class="paragraph-large">We worked with this team for our new brand identity, and they delivered an amazing logo that truly represents our vision. Their creativity is unparalleled!</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_24c088cd-571a-1fdc-eaf0-a38d21b16e91-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_24c088cd-571a-1fdc-eaf0-a38d21b16e92-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Michael L</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Outstanding Web Development”</h3>
+                  <p class="paragraph-large">The website they developed for us is not only visually stunning but also super functional. The entire process was smooth and professional. Highly recommended!</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/658719145d10862e82a3aaf4_sophie-moore-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-_02921816-0ec1-5625-e221-4b8a0e10baca-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_02921816-0ec1-5625-e221-4b8a0e10bacb-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Sophie Moore</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Expert SEO Services”</h3>
+                  <p class="paragraph-large">Since they optimized our website, we've seen a significant increase in organic traffic. Their SEO strategies really work, and they keep us informed every step of the way.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6587191217c12763f8f4bf10_matt-cannon-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-_0ebbf32b-11bb-2d84-1bd2-ebbbc63fcaa1-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_0ebbf32b-11bb-2d84-1bd2-ebbbc63fcaa2-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Matt Cannon</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Stellar Social Media Creatives”</h3>
+                  <p class="paragraph-large">The social media graphics they designed are eye-catching and engaging. We've received a lot of positive feedback from our followers. They truly understand how to connect with audiences.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065959-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_94954e12-f6d9-e8cf-8480-01c8a606595a-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Linda M</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Seamless App Development”</h3>
+                  <p class="paragraph-large">The app they developed for us works flawlessly. It's user-friendly and has all the features we wanted. They listened to our needs and delivered beyond our expectations.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065968-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065969-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">David</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Professional Branding Services”</h3>
+                  <p class="paragraph-large">We used their services for a complete rebranding, and the results were exceptional. From logo design to marketing materials, everything was cohesive and professional.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/658719145d10862e82a3aaf4_sophie-moore-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065977-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065978-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Sophie</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Effective Social Media Strategy”</h3>
+                  <p class="paragraph-large">They helped us create a social media strategy that increased our engagement and visibility. Their team is knowledgeable and great to work with.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6587191217c12763f8f4bf10_matt-cannon-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065986-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_94954e12-f6d9-e8cf-8480-01c8a6065987-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Matt Cannon</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Highly recommended”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a40d9-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a40da-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Andy Smith</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“The #1 Marketing Agency”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a40e8-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a40e9-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">John Carter</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Simply the best”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/658719145d10862e82a3aaf4_sophie-moore-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a40f7-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a40f8-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Sophie Moore</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Unbeatable expertise”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6587191217c12763f8f4bf10_matt-cannon-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a4106-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-bdfda9f2-56af-e676-72b3-9d13e46a4107-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Matt Cannon</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Highly recommended”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd61a-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd61b-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Andy Smith</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“The #1 Marketing Agency”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd629-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd62a-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">John Carter</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Simply the best”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/658719145d10862e82a3aaf4_sophie-moore-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd638-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd639-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Sophie Moore</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Unbeatable expertise”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6587191217c12763f8f4bf10_matt-cannon-avatar-image-agencia-x-webflow-template.png" alt="" id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd647-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-a1ddfc36-b4e2-9139-6173-e56bf62fd648-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Matt Cannon</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">Los Angeles, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="338484f4-021f-37f6-77a4-d3043961b65e" class="marquee">
+            <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Exceptional results”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_338484f4-021f-37f6-77a4-d3043961b668-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_338484f4-021f-37f6-77a4-d3043961b669-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">John Carter</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“An amazing team”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1bc72ece38f3ed99f6e_lilly-woods-avatar-circle-image-agencia-x-webflow-template.png" alt="Lilly Woods Avatar Circle Image - Agencia X Webflow Template" id="w-node-_338484f4-021f-37f6-77a4-d3043961b677-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_338484f4-021f-37f6-77a4-d3043961b678-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Lilly Woods</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“A great marketing agency”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cd45932c6fdd13ccb9b3_patrick-meyer-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_338484f4-021f-37f6-77a4-d3043961b686-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_338484f4-021f-37f6-77a4-d3043961b687-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Patrick Meyer</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Impresive work”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cdbe8c40cdb2cbcad368_sandy-houston-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_338484f4-021f-37f6-77a4-d3043961b695-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_338484f4-021f-37f6-77a4-d3043961b696-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Kathie Corl</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Exceptional results”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f42b-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f42c-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">John Carter</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“An amazing team”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1bc72ece38f3ed99f6e_lilly-woods-avatar-circle-image-agencia-x-webflow-template.png" alt="Lilly Woods Avatar Circle Image - Agencia X Webflow Template" id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f43a-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f43b-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Lilly Woods</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“A great marketing agency”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cd45932c6fdd13ccb9b3_patrick-meyer-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f449-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f44a-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Patrick Meyer</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Impresive work”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cdbe8c40cdb2cbcad368_sandy-houston-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f458-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_2c98848d-96db-2d1a-aaa1-06933e43f459-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Kathie Corl</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Exceptional results”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4664-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4665-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">John Carter</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“An amazing team”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1bc72ece38f3ed99f6e_lilly-woods-avatar-circle-image-agencia-x-webflow-template.png" alt="Lilly Woods Avatar Circle Image - Agencia X Webflow Template" id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4673-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4674-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Lilly Woods</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“A great marketing agency”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cd45932c6fdd13ccb9b3_patrick-meyer-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4682-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4683-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Patrick Meyer</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Impresive work”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cdbe8c40cdb2cbcad368_sandy-houston-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4691-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_985fb5e0-12c1-71ea-00c0-799e86cc4692-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Kathie Corl</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marquee-col">
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Exceptional results”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1b9c2f504e0c4f1781e_john-carter-avatar-circle-image-agencia-x-webflow-template.png" alt="John Carter Avatar Circle Image - Agencia X Webflow Template" id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59253d-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59253e-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">John Carter</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“An amazing team”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6595d1bc72ece38f3ed99f6e_lilly-woods-avatar-circle-image-agencia-x-webflow-template.png" alt="Lilly Woods Avatar Circle Image - Agencia X Webflow Template" id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59254c-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59254d-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Lilly Woods</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“A great marketing agency”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cd45932c6fdd13ccb9b3_patrick-meyer-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59255b-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59255c-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Patrick Meyer</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">New York, NY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card testimonial-card-04">
+                <div>
+                  <h3 class="display-6 text-medium mg-bottom-16px">“Impresive work”</h3>
+                  <p class="paragraph-large">Lorem ipsum dolor sit amet consectetur. In etiam sit sed vel tortor mauris morbi eros ac. Tempus adipiscing pretium.</p>
+                </div>
+                <div class="w-layout-grid grid-auto---1fr align-center _1-col-mbp">
+                  <div class="avatar-wrapper _54px">
+                    <img src="images/6596cdbe8c40cdb2cbcad368_sandy-houston-avatar-circle-image-agencia-x-webflow-template.png" alt="" id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59256a-2f6d3ce5" class="avatar-image circle">
+                  </div>
+                  <div id="w-node-_6b0feead-141a-d4da-b9f7-bd540d59256b-2f6d3ce5">
+                    <div class="mg-bottom-4px">
+                      <div class="display-4 text-medium text-neutral-800">Kathie Corl</div>
+                    </div>
+                    <div class="display-4 text-medium text-neutral-600">San Francisco, CA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      
+      <section>
+      <div style="height:60px;"></div>
+      </section>
+      
+      
+      
+     
+      <footer class="footer-wrapper">
+        <div class="w-layout-blockcontainer container-default w-container">
+          <div>
+            <div class="w-layout-grid grid-2-columns footer-top-grid-2-col">
+              <div id="w-node-_8489b25f-3960-739c-064b-f3a48f9ff819-57241a43" data-w-id="8489b25f-3960-739c-064b-f3a48f9ff819" class="footer-left-container">
+                <div class="footer-left---content-top">
+                <div class="mg-bottom-8px">
+                <div class="display-4 text-medium text-neutral-100">Get in touch with us</div>
+              </div>
+                  <div class="mg-bottom-32px">
+                    <h2 class="display-9 text-medium text-neutral-100">Need help on a project? Let’s work together!</h2>
+                  </div>
+                  <div class="buttons-row left">
+                  <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="https://wa.me/916238662506" class="button-primary w-inline-block">
+                    <div class="text-block">Let's talk</div>
+                  </a>
+                  <a id="w-node-_9ac5c108-4a68-32dd-6e03-9f793bb88842-3bb88842" href="#service" class="secondary-button w-inline-block">
+                    <div class="text-block" style="color:white">Our services</div>
+                  </a>
+                </div>
+                </div>
+                <div>
+                  <img src="images/65b7e3e181eb920fa381bc7a_footer-card-image-agencia-webflow-ecommerce-template.jpg" srcset="images/65b7e3e181eb920fa381bc7a_footer-card-image-agencia-webflow-ecommerce-template-p-500.jpg 500w, images/65b7e3e181eb920fa381bc7a_footer-card-image-agencia-webflow-ecommerce-template-p-800.jpg 800w, images/65b7e3e181eb920fa381bc7a_footer-card-image-agencia-webflow-ecommerce-template.jpg 896w" data-w-id="8489b25f-3960-739c-064b-f3a48f9ff822" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, (max-width: 1439px) 35vw, 453.84375px" alt="" class="fit-cover _w-h-100">
+                </div>
+                <div class="footer-left---bg"></div>
+              </div>
+              <div id="w-node-_8489b25f-3960-739c-064b-f3a48f9ff823-57241a43" class="footer-right">
+                <div data-w-id="8489b25f-3960-739c-064b-f3a48f9ff824" class="inner-container _498px _100-tablet">
+                  <div class="mg-bottom-24px">
+                    <a href="/home-pages/home-v1" aria-current="page" class="logo-link w-inline-block w--current">
+                      <img src="images/LOGO.png" alt="Logo Light Mode - Agencia X Webflow Template" class="header-logo">
+                    </a>
+                  </div>
+                  <p class="paragraph-large mg-bottom-24px">Your go-to brand for creative graphic design and expert web & app development. We turn ideas into stunning digital realities.</p>
+                  <div class="w-layout-grid grid-1-column gap-row-16px">
+                    <a id="w-node-_8489b25f-3960-739c-064b-f3a48f9ff82a-57241a43" href="mailto:contact@agenciax.com" class="link w-inline-block">
+                      <div class="display-4 text-medium">mail.graphico@gmail.com</div>
+                    </a>
+                    <a id="w-node-_8489b25f-3960-739c-064b-f3a48f9ff82d-57241a43" href="tel:(345)704-4930" class="link w-inline-block">
+                      <div class="display-4 text-medium">+91 62386 62506</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="divider _64px _48px-tablet"></div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom _01">
+            <p class="display-4">Copyright © <strong class="semi-bold">Graphico</strong> | Designed by <a href="https://brixtemplates.com/" target="_blank" class="link semi-bold"> </a>
+            </p>
+            <div class="social-media-flex">
+              <a href="https://www.facebook.com/fbgraphico" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+              <a href="https://x.com/realGraphico" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+              <a href="https://instagram.com/graphico.net.in" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+              <a href="https://www.behance.net/salahmangala" target="_blank" class="icon-font-wrapper text-decoration-none w-inline-block">
+                <div class="icon-font-social-media"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </div>
+    <script>
+      window.onload = function() {
+  // Select the paragraph element by its ID
+  var paragraph = document.getElementBy("w-webflow-badge");
+  
+  // Check if the paragraph element exists
+  if (paragraph) {
+    // Get the parent node of the paragraph
+    var parent = paragraph.parentNode;
+    
+    // Remove the paragraph element from its parent node
+    parent.removeChild(paragraph);
+  }
+}
+    </script>
+    <script src="js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
+    <script src="js/webflow.6898430e9.js" type="text/javascript"></script>
+  </body>
+</html>
